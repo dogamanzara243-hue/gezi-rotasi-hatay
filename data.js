@@ -24,7 +24,42 @@ const SPOT_DATA = {
         paragraphs: ["Hatay (Antakya), farklı dinlerin ve kültürlerin yüzyıllardır barış içinde bir arada yaşadığı, dünyanın en eski yerleşim merkezlerinden biridir.", "Dünyanın ilk mağara kilisesi olan St. Pierre Kilisesi, zengin Hatay Arkeoloji Müzesi ve meşhur közde Hatay künefesi unutulmaz deneyimler sunar."],
         visitorNotes: [{"label": "En İyi Zaman", "value": "Sonbahar & İlkbahar"}, {"label": "Tarih", "value": "Dünyanın En Büyük Mozaik Müzelerinden"}, {"label": "Ne Yenir", "value": "Künefe, Tepsi Kebabı, Humus"}]
     },
-    whyVisit: {"title": "Neden Hatay'a Gitmelisiniz?", "subtitle": "Binlerce yıllık hoşgörü kültürü ve benzersiz lezzetler", "cards": [{"icon": "fa-solid fa-church", "title": "St. Pierre Kilisesi", "description": "Hristiyanlık kelimesinin ilk kez kullanıldığı dünyanın ilk mağara kilisesi."}, {"icon": "fa-solid fa-utensils", "title": "Hatay Mutfağı", "description": "Közde künefesi, humusu, tepsi kebabı ve kağıt kebabı ile gastronomi ziyafeti."}, {"icon": "fa-solid fa-store", "title": "Tarihi Uzun Çarşı", "description": "Baharatçılar, demirciler ve fırınlarla dolu tarihi alışveriş merkezi."}]},
+    
+    whyVisit: {
+        title: "Hatay Keşif Rotaları",
+        subtitle: "Şehrin en gözde mekanlarını tematik kategorilere göre keşfedin",
+        cards: [
+            {
+                icon: "fa-solid fa-landmark",
+                title: "Tarihi Yerler",
+                description: "Yüzyıllık anıtlar, kaleler, müzeler ve köklü medeniyet izleri.",
+                linkText: "Tarihi Keşfet",
+                url: "#must-see-items"
+            },
+            {
+                icon: "fa-solid fa-city",
+                title: "Modern Yerler",
+                description: "Şehrin en popüler meydanları, alışveriş merkezleri ve plazas.",
+                linkText: "Moderni İncele",
+                url: "#must-see-items"
+            },
+            {
+                icon: "fa-solid fa-gem",
+                title: "Sofistike Yerler",
+                description: "Seçkin kafeler, sanat galerileri ve nezih buluşma noktaları.",
+                linkText: "Sofistike Noktalar",
+                url: "#where-to-stay-title"
+            },
+            {
+                icon: "fa-solid fa-tree",
+                title: "Doğal Güzellikler",
+                description: "Parklar, sahil şeritleri, kanyonlar ve nefis manzara noktaları.",
+                linkText: "Doğayı Gör",
+                url: "#transport-title"
+            }
+        ]
+    },
+     {"icon": "fa-solid fa-utensils", "title": "Hatay Mutfağı", "description": "Közde künefesi, humusu, tepsi kebabı ve kağıt kebabı ile gastronomi ziyafeti."}, {"icon": "fa-solid fa-store", "title": "Tarihi Uzun Çarşı", "description": "Baharatçılar, demirciler ve fırınlarla dolu tarihi alışveriş merkezi."}]},
     mustSee: {
         title: "Görülmesi Gereken Öne Çıkan Noktalar",
         items: [{"category": "Müze", "title": "Hatay Arkeoloji Müzesi", "description": "Muhteşem mozaik koleksiyonu."}, {"category": "Inanç", "title": "St. Pierre Kilisesi", "description": "Hristiyanlık tarihinin en önemli kutsal alanı."}, {"category": "Tarih", "title": "Titus Tüneli & Beşikli Mağara", "description": "Roma dönemi insan eliyle yapılmış devasa tünel."}, {"category": "Çarşı", "title": "Uzun Çarşı", "description": "Antakya'nın kalbi tarihi esnaf çarşısı."}]
